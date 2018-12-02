@@ -14,10 +14,10 @@ public class ViewManager implements ViewActivator {
     private Controller controller;
     private Presenter presenter;
     private View view;
-    private FxmlViewLoader loader;
+    private ViewLoader loader;
     private ParentView parentView;
 
-    public ViewManager(FxmlViewLoader loader, ParentView parentView) {
+    public ViewManager(ViewLoader loader, ParentView parentView) {
         this.loader = loader;
         this.parentView = parentView;
         this.viewMap = new HashMap<>();

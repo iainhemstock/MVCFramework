@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MVCViewManager:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MVCViewManager_jar</output-path>
-    <root id="archive" name="MVCViewManager.jar">
-      <element id="module-output" name="MVCViewManager" />
-    </root>
-  </artifact>
-</component>

@@ -47,7 +47,6 @@ public class ViewManager implements ViewActivator {
 
         this.presenter.handleResponse(response);
         this.controller.updateView(presenter.getViewModel());
-        this.controller.setView(view);
         this.parentView.setChildView(view);
     }
 
